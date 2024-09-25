@@ -1,4 +1,13 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+#Task A: Guess the Number Game
+	Write Pseudo Code for a number guessing game. The computer chooses a random number between 1 and 10, and the player has 3 chances to guess.
 
+Have the computer save a number randomly picked from a list of 1-10.
+
+Create a tracker for the number of tries that the player has and set it to 3.
+
+Have the player input a number from between 1 and 10, if they guess is correct they win, otherwise the tries counter goes down by 1.
+
+Check how many tries the player has left, if it’s greater than 0, they can try again, otherwise they lose the game.

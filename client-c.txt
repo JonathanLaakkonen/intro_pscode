@@ -1,4 +1,12 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Task C: Product Package Counter
+	You need to develop a program that counts the number of items that a hardware device scans to sort for boxing packages into cases. Each package scanned is two (2) products. Each case can only fit 50 product packages. Write a program that prints numbers from 2 to 50, counting by twos.
+
+Have a Product Counter that starts at 0.
+
+Each time a package is scanned, have the Counter go up by 2 then print the number.
+
+When the Counter reaches 50, print ‘The Case is full’ and stop accepting scans.
 

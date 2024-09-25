@@ -1,4 +1,19 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Task B: Find the Spot
+	Develop a mapping(walking) application to find a specific set location in a large warehouse store for a customer. The customer can move north, south, east, and west.
+	Assumption(s): The store contains Aisles, each of which has three shelves to a side.
+Create a grid system with assigned numbers for each Aisle(i.e. the top-left grid is 1-1, the one to the right of that one is 1-2 and the one below 1-1 is 2-1).
 
+Also need to include locations like the Entrance or Bathrooms.
+
+ Possibly include other attributes for the Aisles; like Clothing, Home Decorations or Frozen Food. Can get more specific from there if wanted.
+
+Have the User input their location(like if they’re in Aisle 2 or at the Entrance.) and where they’d like to go.
+
+The Program uses a formula that subtracts the desired location’s grid number from that of the starting point’s and uses that to calculate how many Aisles the user needs to travel and in which directions.
+	Example: Starting Location = Input (3-8)
+		Destination = Input (1-3)
+		EasWesWalk = 1 - 3, -2 the User needs to walk West 2 Aisles.
+		NorSouWalk = 3 - 8,  -5 the User needs to walk North 5 Aisle.
